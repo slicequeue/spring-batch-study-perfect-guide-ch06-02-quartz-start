@@ -6,4 +6,6 @@ spring:
     password: admin
 
   batch:
-    initialize-schema: always
+    job:
+      enabled: false
+      initialize-schema: always

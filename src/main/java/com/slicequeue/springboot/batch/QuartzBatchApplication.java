@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @EnableBatchProcessing
 @SpringBootApplication
-public class SpringBootBatchApplication {
+public class QuartzBatchApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootBatchApplication.class, args);
+		SpringApplication.run(QuartzBatchApplication.class, args);
 	}
 
 }
