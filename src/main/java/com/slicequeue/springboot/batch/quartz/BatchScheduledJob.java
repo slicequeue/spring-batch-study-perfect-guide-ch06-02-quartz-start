@@ -17,7 +17,7 @@ import org.springframework.scheduling.quartz.QuartzJobBean;
 public class BatchScheduledJob extends QuartzJobBean {
 
     @Autowired
-    private Job batchJob;
+    private Job batchJob; // 이 주입은 BasicBatchJobConfiguration 클래스 에서 batchJob 으로 빈등록이 되어 있기에 주입 가능한 것!
 
     @Autowired
     private JobExplorer jobExplorer;
